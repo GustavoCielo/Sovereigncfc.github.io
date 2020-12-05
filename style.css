@@ -1,73 +1,201 @@
-
 * {
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
 }
+
 body {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(82, 86, 89);
-    padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #525659;
+  padding: 50px;
 }
+
 section {
-    display: flex;
-    min-height: 100vh;
-    width: 70%;
-    margin: 10px;
-    aside {
-        width: 30%;
-        background-color: #293e49;
-        color: white;
-        padding: 40px 20px;
-        h3 {
-            font-weight: lighter;
-            color: lightgrey
-        }
-        a {
-            text-decoration: none;
-            color: lightgrey;
-            &:hover {
-                text-decoration: none;
-                color: lightgrey;
-            }
-        }
-        span {
-            color: lightgrey;
-        }
-    }
-    .content {
-        flex-wrap: wrap;
-        align-content: baseline;
-        padding: 40px 20px;
-        background-color: white;
-        .header {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: flex-start;
-        }
-        h1 {
-            margin-left: 20px;
-            font-size: 32px;
-        }
-        h2 {
-            font-size: 24px;
-        }
-        h3 {
-            font-size: 20px;
-        }
-
-        img {
-            width: auto;
-            height: 20vh;
-            border-radius: 65px;
-        }
-        p {
-            color: black;
-        }
-        .address {
-            color: lightgrey;
-        }
-    }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  width: 70%;
+  margin: 10px;
 }
 
+section aside {
+  width: 30%;
+  background-color: #293e49;
+  color: white;
+  padding: 40px 20px;
+}
+
+section aside h3 {
+  font-weight: lighter;
+  color: lightgrey;
+}
+
+section aside a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+section aside a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+section aside span {
+  color: lightgrey;
+}
+
+section .content {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: baseline;
+      align-content: baseline;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+section .content .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+section .content h1 {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+section .content h2 {
+  font-size: 24px;
+}
+
+section .content h3 {
+  font-size: 20px;
+}
+
+section .content img {
+  width: auto;
+  height: 20vh;
+  border-radius: 65px;
+}
+
+section .content p {
+  color: black;
+}
+
+section .content .address {
+  color: lightgrey;
+}
+/*# sourceMappingURL=style.css.map */* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #525659;
+  padding: 50px;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  width: 70%;
+  margin: 10px;
+}
+
+section aside {
+  width: 30%;
+  background-color: #293e49;
+  color: white;
+  padding: 40px 20px;
+}
+
+section aside h3 {
+  font-weight: lighter;
+  color: lightgrey;
+}
+
+section aside a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+section aside a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+section aside span {
+  color: lightgrey;
+}
+
+section .content {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: baseline;
+      align-content: baseline;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+section .content .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+section .content h1 {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+section .content h2 {
+  font-size: 24px;
+}
+
+section .content h3 {
+  font-size: 20px;
+}
+
+section .content img {
+  width: auto;
+  height: 20vh;
+  border-radius: 65px;
+}
+
+section .content p {
+  color: black;
+}
+
+section .content .address {
+  color: lightgrey;
+}
+/*# sourceMappingURL=style.css.map */
