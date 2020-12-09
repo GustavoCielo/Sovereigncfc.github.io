@@ -14,6 +14,13 @@ body {
   padding: 50px;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+    font-size: 16px;
+  }
+}
+
 section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,6 +35,7 @@ section aside {
   background-color: #293e49;
   color: white;
   padding: 40px 20px;
+  word-wrap: break-word;
 }
 
 section aside h3 {
@@ -97,5 +105,11 @@ section .content p {
 
 section .content .address {
   color: lightgrey;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
